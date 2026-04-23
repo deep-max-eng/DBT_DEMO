@@ -1,3 +1,7 @@
+{{ config(
+    materialized='table'
+) }}
+
 with BIKE as 
 (
 select distinct 
